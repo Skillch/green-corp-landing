@@ -45,7 +45,7 @@ button {
 .about__image {
     width: 500px;
   }
-   
+
 .about__sun—image {
     width: 100px;
     height: 100px;
@@ -65,7 +65,7 @@ button {
 .about p{
     font-size: 18px;
     line-height: 30px;
-    opacity: 0.8;   
+    opacity: 0.8;
 }
 .about button{
     font-size: 18px;
@@ -91,7 +91,7 @@ button {
   .form{
     background-color: #1D263A;
     color: #fff;
-    padding-top: 115px; 
+    padding-top: 115px;
     padding-bottom: 115px;
     text-align: center;
     display: flex;
@@ -156,10 +156,10 @@ button {
   button:hover{
     background-color: #f6980c;
     box-shadow: 0 16px 36px rgba(246 152 12 / 20%);
-    
+
   }
   button{
-    
+
     transition: margin-right 1s ease-in;
   }
   button{
@@ -172,7 +172,7 @@ button {
     padding-right: 20px;
     font-size: 16px;
     font-weight: 600;
-    
+
   }
   .footer__copyright{
     margin-top: 40px;
@@ -202,7 +202,7 @@ button {
       from {transform: rotate(0deg);}
       to {transform: rotate(360deg);}
   }
-  
+
   .about__sun—image{
     animation-name: rotation;
     animation-duration: 10s;
@@ -210,80 +210,80 @@ button {
     animation-timing-function: linear;
     position: absolute;
   }
- 
+
  @media (max-width: 720px) {
     .about {
         padding: 20px 20px;
     }
-  
+
     .about h1 {
         font-size: 36px;
         line-height: 40px;
     }
-  
+
     .about__image {
         width: 280px;
     }
-  
+
     .about__sun-image {
         width: 75px;
         height: 75px;
     }
-  
+
  }
-  
+
  @media (max-width: 320px) {
     header {
         padding: 10px;
     }
-  
+
     .header__logo {
         height: 20px;
     }
-  
+
     header a {
         margin-right: 10px;
     }
-  
+
     .about {
         flex-direction: column-reverse;
         padding: 50px 10px;
     }
-  
+
     .about h1 {
         font-size: 36px;
         line-height: 40px;
     }
-  
+
     .about__image {
         width: 280px;
     }
-  
+
     .about__sun-image {
         width: 75px;
         height: 75px;
     }
-  
+
     .form {
         padding: 50px 10px;
     }
-  
+
     .form h1 {
         font-size: 36px;
     }
-  
+
     footer {
         padding: 50px 10px;
     }
-  
+
     .footer__container {
         flex-direction: column;
     }
-   
+
  }
  .features {
   background-color: #fff;
-  padding: 115px 60px; 
+  padding: 115px 60px;
 }
 
 @media (max-width: 720px) {
@@ -406,7 +406,7 @@ button {
   .features__feedback-left {
     margin-right: 0;
   }
-  
+
   .features__feedback-left h2, .features__box h3 {
     font-size: 36px;
   }
@@ -494,4 +494,14 @@ button {
 .promo__text button i {
   font-size: 15px;
   margin-left: 5px;
+}
+.about {
+   position: relative;
+}
+
+.orb-canvas {
+   position: absolute;
+   top: 0;
+   height: 100%;
+   right: 0;
 }
